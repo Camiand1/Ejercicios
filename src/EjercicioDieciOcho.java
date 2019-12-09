@@ -1,6 +1,6 @@
 public class EjercicioDieciOcho {
 
-    public void ejercicioDieciOcho() {
+    public void creacionArrays() {
 
         Serie[] serie = new Serie[5];
         serie[0] = new Serie("13 Reasons Why","Netflix");

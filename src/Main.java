@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         int numeroEjercicio = 0;
+        System.out.println("MENU");
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduzca el número del ejercicio: ");
         ValidacionEntradaScanner validacionEntradaScanner = new ValidacionEntradaScanner();
@@ -57,19 +58,13 @@ public class Main {
                     ejercicioQuince();
                     break;
                 case 16:
-                    System.out.println("Ejercicio número 16:");
-                    Persona ejercicioDieciSeis = new Persona();
-                    ejercicioDieciSeis.ejercicioDieciSeis();
+                    ejercicioDieciSeis();
                     break;
                 case 17:
-                    System.out.println("Ejercicio número 17:");
-                    Electrodomestico ejercicioDieciSiete = new Electrodomestico();
-                    ejercicioDieciSiete.ejercicioDieciSiete();
+                    ejercicioDieciSiete();
                     break;
                 case 18:
-                    System.out.println("Ejercicio número 18:");
-                    EjercicioDieciOcho ejercicioDieciOcho = new EjercicioDieciOcho();
-                    ejercicioDieciOcho.ejercicioDieciOcho();
+                    ejercicioDieciOcho();
                     break;
                 default:
 
@@ -168,16 +163,20 @@ public class Main {
         ejercicioQuince.ejercicioQuince();
     }
     public static void ejercicioDieciSeis(){
-
+        System.out.println("Ejercicio número 16:");
+        Persona ejercicioDieciSeis = new Persona();
+        ejercicioDieciSeis.ejercicioDieciSeis();
     }
     public static void ejercicioDieciSiete(){
-
+        System.out.println("Ejercicio número 17:");
+        Electrodomestico ejercicioDieciSiete = new Electrodomestico();
+        ejercicioDieciSiete.ejercicioDieciSiete();
     }
     public static void ejercicioDieciOcho(){
-
+        System.out.println("Ejercicio número 18:");
+        EjercicioDieciOcho ejercicioDieciOcho = new EjercicioDieciOcho();
+        ejercicioDieciOcho.creacionArrays();
     }
-
-
 }
 
 

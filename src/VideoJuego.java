@@ -7,7 +7,6 @@ public class VideoJuego implements Entregable {
     private String compania = "";
 
     public VideoJuego() {
-
     }
 
     public VideoJuego(String titulo, int horasEstimadas) {
