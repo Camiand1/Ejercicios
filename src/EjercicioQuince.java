@@ -1,8 +1,11 @@
 import java.util.Scanner;
 
 public class EjercicioQuince {
+    int numero;
+
     public void ejercicioQuince(){
-        int numero;
+
+        ValidacionEntradaScanner validadorNumero = new ValidacionEntradaScanner();
         Scanner teclado = new Scanner(System.in);
         do {
             System.out.println("*****GESTIÓN CINEMATROGRÁFICA*****");
@@ -16,14 +19,16 @@ public class EjercicioQuince {
             System.out.println("8-SALIR");
 
             System.out.println("Digite un número");
+            validadorNumero.validacionNumero(teclado);
             numero = teclado.nextInt();
             if (numero > 8) {
                 System.out.println("OPCION INCORRECTA");
+                Menu volverMenu = new Menu();
+                volverMenu.preguntarMenu();
             }
-            switch (numero) {
-                case 8: {
-                    break;
-                }
+            if (numero == 8){
+                Menu volverMenu = new Menu();
+                volverMenu.preguntarMenu();
             }
         }while(numero<8);
     }

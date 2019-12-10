@@ -5,17 +5,17 @@ import java.util.regex.Pattern;
 public class ValidacionEntradaScanner {
 
     public void validacionNumero(Scanner teclado){
-        while(!teclado.hasNextInt()){
+        while(!teclado.hasNextDouble()){
             System.out.println("Valor ingresado incorrecto, no es un numero, vuelva a intentarlo");
             teclado.next();
         }
     }
 
-    public void validacionPalabra(Scanner teclado){
-        CharSequence tecladoChar = teclado.nextLine();
-        if (!Pattern.matches("[a-zA-Z]+", tecladoChar)) {
+    public String validacionPalabra(Scanner teclado){
+        String tecladoString = teclado.nextLine();
+        if (!tecladoString.matches("[a-zA-Z- ]+$")) {
             System.out.println("Valor ingresado incorrecto, no es una palabra, vuelva a intentarlo");
-
-        }
+            tecladoString=teclado.next();
+        }return tecladoString;
     }
 }

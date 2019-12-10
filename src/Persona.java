@@ -3,7 +3,8 @@
 import java.util.Scanner;
 
 public class Persona {
-    private  int PESO_BAJO = -1;
+
+    private  int PESOBAJO = -1;
 
     private String nombre="";
     private int edad = 0;
@@ -37,10 +38,10 @@ public class Persona {
         double calculoIMC;
         calculoIMC = (peso/(Math.pow(altura,2)));
         if(calculoIMC<20){
-            System.out.println(PESO_BAJO + " - Su peso es ideal\n");
-        }if (calculoIMC >=20 &&  calculoIMC <=25){
+            System.out.println(PESOBAJO + " - Su peso es ideal\n");
+        }else if (calculoIMC >=20 &&  calculoIMC <=25){
             System.out.println("0 - Está por debajo de su peso ideal\n");
-        }if(calculoIMC >25){
+        }else if(calculoIMC >25){
             System.out.println("1 - Tiene sobrepeso\n");
         }return calculoIMC;
     }

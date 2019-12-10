@@ -3,15 +3,19 @@ import java.util.Calendar;
 public class EjercicioTrece {
 
     public void obtenerFechaHora(){
-        Calendar calendario = Calendar.getInstance();
-        int hora, minutos, segundos, dia, mes, año;
-        año = calendario.get(Calendar.YEAR);
-        mes = calendario.get(Calendar.MONTH);
-        dia = calendario.get(Calendar.DATE);
-        hora = calendario.get(Calendar.HOUR_OF_DAY);
-        minutos = calendario.get(Calendar.MINUTE);
-        segundos = calendario.get(Calendar.SECOND);
 
-        System.out.println("(" + año + "/" + mes + "/" + dia + ") (" + hora + ":" + minutos + ":" + segundos + ")");
+        System.out.println("Fecha y hora actual:");
+        Calendar calendario = Calendar.getInstance();
+
+        int anio = calendario.get(Calendar.YEAR);
+        int mes = calendario.get(Calendar.MONTH);
+        int dia = calendario.get(Calendar.DATE);
+        int hora = calendario.get(Calendar.HOUR_OF_DAY);
+        int minutos = calendario.get(Calendar.MINUTE);
+        int segundos = calendario.get(Calendar.SECOND);
+
+        System.out.println("(" + anio + "/" + mes + "/" + dia + ") (" + hora + ":" + minutos + ":" + segundos + ")\n");
+        Menu volverMenu = new Menu();
+        volverMenu.preguntarMenu();
     }
 }

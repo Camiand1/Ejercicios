@@ -7,11 +7,13 @@ public class EjercicioDoce {
 
     public void introducirPalabra() {
 
+        ValidacionEntradaScanner validadorPalabra = new ValidacionEntradaScanner();
+        System.out.println("Digite dos palabras, indicará si son iguales, sino, se mostrarán sus diferencias");
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduzca la primer palabra: ");
-        palabra1 = teclado.nextLine();
+        palabra1 = validadorPalabra.validacionPalabra(teclado);
         System.out.println("Introduzca la segunda palabra: ");
-        palabra2 = teclado.nextLine();
+        palabra2 = validadorPalabra.validacionPalabra(teclado);
     }
 
     public void diferenciasPalabras() {
@@ -76,7 +78,8 @@ public class EjercicioDoce {
                 contPalabra2Vocalu++;
             }
         }
-        System.out.println("La palabra " + palabra2 + " contiene " + contPalabra2Vocala + " vocales a, " + contPalabra2Vocale + " vocales e, " + contPalabra2Vocali + " vocales i, " + contPalabra2Vovalo + " vocales o y " + contPalabra2Vocalu + " vocales u");
-
+        System.out.println("La palabra " + palabra2 + " contiene " + contPalabra2Vocala + " vocales a, " + contPalabra2Vocale + " vocales e, " + contPalabra2Vocali + " vocales i, " + contPalabra2Vovalo + " vocales o y " + contPalabra2Vocalu + " vocales u\n");
+        Menu volverMenu = new Menu();
+        volverMenu.preguntarMenu();
     }
 }

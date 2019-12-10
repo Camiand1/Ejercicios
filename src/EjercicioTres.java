@@ -10,7 +10,8 @@ public class EjercicioTres {
 
         ValidacionEntradaScanner validadorNumero = new ValidacionEntradaScanner();
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Se calculará el area del un circulo, por favor introduce el valor del radio del circulo: ");
+        System.out.println("Se calculará el area de un circulo.\n" +
+                "Por favor introduzca el valor del radio del circulo: ");
         validadorNumero.validacionNumero(teclado);
         radio = teclado.nextDouble();
 
@@ -18,6 +19,8 @@ public class EjercicioTres {
     public void calculoAreaCirculo(){
         radio = Math.pow(radio, 2);
         double area = (PI * radio);
-        System.out.println("El area del circulo es: " + area);
+        System.out.println("El area del circulo es: " + area +"\n");
+        Menu volverMenu = new Menu();
+        volverMenu.preguntarMenu();
     }
 }

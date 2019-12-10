@@ -7,7 +7,7 @@ public class EjercicioCinco {
 
     public void numerosParImpar() {
 
-
+        System.out.println("Números impares y pares del 1 al 100:\n");
         while (primerNumero <= ultimoNumero) {
             if (primerNumero % 2 == 0) {
                 numeroPares = numeroPares + primerNumero  + ", ";
@@ -17,8 +17,10 @@ public class EjercicioCinco {
                 primerNumero = primerNumero + 1;
             }
         }
-        System.out.println("Numeros pares: " + numeroPares);
-        System.out.println("Numeros numerosImpares: " + numerosImpares);
+        System.out.println("Numeros pares: " + numeroPares+ "\n");
+        System.out.println("Numeros numeros impares: " + numerosImpares+ "\n");
+        Menu volverMenu = new Menu();
+        volverMenu.preguntarMenu();
     }
 }
 

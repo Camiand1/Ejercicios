@@ -6,9 +6,10 @@ public class EjercicioOnce {
 
     public void introducirFrase() {
 
+        ValidacionEntradaScanner validadorPalabra = new ValidacionEntradaScanner();
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introducir una frase: ");
-        frase = teclado.nextLine();
+        frase = validadorPalabra.validacionPalabra(teclado);
         frase = frase.toLowerCase();
     }
 
@@ -37,6 +38,8 @@ public class EjercicioOnce {
                 contadorVocalu++;
             }
         }
-        System.out.println("La palabra " + frase + " contiene " + contadorVocala + " vocales a, " + contadorVocale + " vocales e, " + contadorVocali + " vocales i, " + contadorVocalo + " vocales o y " + contadorVocalu + " vocales u");
+        System.out.println("La palabra " + frase + " contiene " + contadorVocala + " vocales a, " + contadorVocale + " vocales e, " + contadorVocali + " vocales i, " + contadorVocalo + " vocales o y " + contadorVocalu + " vocales u\n");
+        Menu volverMenu = new Menu();
+        volverMenu.preguntarMenu();
     }
 }
