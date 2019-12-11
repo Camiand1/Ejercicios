@@ -167,7 +167,7 @@ public class Menu {
         System.out.println("Ejercicio número 12.");
         EjercicioDoce diferenciasPalabras = new EjercicioDoce();
         diferenciasPalabras.introducirPalabra();
-        diferenciasPalabras.diferenciasPalabras();
+        diferenciasPalabras.diferenciaPalabras();
     }
     public static void ejercicioTrece(){
         System.out.println("Ejercicio número 13.");
@@ -209,7 +209,6 @@ public class Menu {
         if (pregunta == 1) {
             Menu volverMenu = new Menu();
             volverMenu.menuCompleto();
-        } else {
         }
     }
 }

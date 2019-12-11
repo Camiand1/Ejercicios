@@ -85,16 +85,13 @@ public class Serie implements Entregable{
     @Override
     public int compareTo(Object[] a) {
         int temporadas = this.numeroTemporadas;
-        Serie comparador = this;
+        Serie comparador;
         for (int i=0; i<a.length; i++){
             comparador = (Serie) a[i];
             if(comparador.numeroTemporadas>temporadas){
                 temporadas = comparador.numeroTemporadas;
             }
         }
-
-
-        //System.out.println("Temporada: " + comparador);
         return temporadas;
     }
 

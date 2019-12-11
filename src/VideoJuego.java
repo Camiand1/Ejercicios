@@ -93,7 +93,6 @@ public class VideoJuego implements Entregable {
                 horas = videoJuego.horasEstimadas;
             }
         }
-
         return horas;
     }
 }

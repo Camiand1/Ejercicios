@@ -2,7 +2,6 @@ public class Television extends Electrodomestico{
     private int resolucion = 20;
     private boolean sincronizadorTDT = false;
 
-
     public Television(){
 
     }
@@ -38,7 +37,7 @@ public class Television extends Electrodomestico{
 
     @Override
     public int precioFinal(int precioFinal) {
-        precioFinal = super.precioFinal(precioBase);
+        precioFinal = super.precioFinal(PRECIOBASE);
         if (resolucion>40){
 
             this.precioFinal = (int) (precioFinal +(precioFinal *0.3));
@@ -47,6 +46,4 @@ public class Television extends Electrodomestico{
         }
         return precioFinal;
     }
-
-
 }

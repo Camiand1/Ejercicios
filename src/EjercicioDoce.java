@@ -16,7 +16,7 @@ public class EjercicioDoce {
         palabra2 = validadorPalabra.validacionPalabra(teclado);
     }
 
-    public void diferenciasPalabras() {
+    public void diferenciaPalabras() {
 
         int contPalabra1Vocala = 0;
         int contPalabra1Voca1e = 0;

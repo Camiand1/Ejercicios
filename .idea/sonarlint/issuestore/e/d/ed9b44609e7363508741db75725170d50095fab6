@@ -1,0 +1,39 @@
+
+3squid:S1643z"Use a StringBuilder instead.(çÁ÷€
+3squid:S1643~"Use a StringBuilder instead.(Ü¬ËŞ
+4squid:S1643"Use a StringBuilder instead.(ª­Éá
+^squid:S1192"GDefine a constant instead of duplicating this literal "blanco" 4 times.(´ıÑ
+Dsquid:S1199I"-Extract this nested code block into a method.(‘–±’
+Dsquid:S1199K"-Extract this nested code block into a method.(ƒø­î
+Isquid:S1199M"-Extract this nested code block into a method.(©ğ¤çıÿÿÿÿ
+Isquid:S1199O"-Extract this nested code block into a method.(ÄÆ¡şÿÿÿÿ
+Isquid:S1199Q"-Extract this nested code block into a method.(òÓù¨üÿÿÿÿ
+Csquid:S1199S"-Extract this nested code block into a method.(šÀå'
+‰"squid:ClassVariableVisibilityCheck"VMake precioBase a static final constant or non-public and provide accessors if needed.(ÚÈµÖşÿÿÿÿ
+isquid:S00117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼â”â
+qsquid:S00116"TRename this field "PESO_BASE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¯ÁÄûÿÿÿÿ
+nsquid:S00116"VRename this field "PRECIO_BASE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«õş¥
+Psquid:S1854B"9Remove this useless assignment to local variable "color".(ÊÈ¢±
+P"squid:SwitchLastCaseIsDefaultCheckH""Add a default case to this switch.(¡ùÉà
+g
+squid:S128Q"LEnd this switch case with an unconditional break, return or throw statement.(òÓù¨üÿÿÿÿ
+g
+squid:S128O"LEnd this switch case with an unconditional break, return or throw statement.(ÄÆ¡şÿÿÿÿ
+g
+squid:S128M"LEnd this switch case with an unconditional break, return or throw statement.(©ğ¤çıÿÿÿÿ
+b
+squid:S128K"LEnd this switch case with an unconditional break, return or throw statement.(ƒø­î
+b
+squid:S128I"LEnd this switch case with an unconditional break, return or throw statement.(‘–±’
+Ssquid:S3972X"7Move this "if" to a new line or add the missing "else".(¯Äßïÿÿÿÿÿ
+Msquid:S3972Z"7Move this "if" to a new line or add the missing "else".(øÃú1
+Ssquid:S3972\"7Move this "if" to a new line or add the missing "else".(¾¯ãııÿÿÿÿ
+P
+squid:S106‰"9Replace this use of System.out or System.err by a logger.(›±»È
+O
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(Ğæù
+U
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(¸Ïôÿÿÿÿÿ
+P
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(×ĞØ
+gsquid:CommentedOutCodeLines"<This block of commented-out lines of code should be removed.(Üˆƒüÿÿÿÿ
