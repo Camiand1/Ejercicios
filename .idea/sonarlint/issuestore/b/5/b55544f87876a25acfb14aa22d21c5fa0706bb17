@@ -1,35 +1,0 @@
-
-Msquid:S1481‹"5Remove this unused "alturaIngresado1" local variable.(ŸªÓ«
-O
-squid:S106x"9Replace this use of System.out or System.err by a logger.(Õ”‘Ÿ
-lsquid:S00116"TRename this field "PESO_BAJO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äâøé
-Ksquid:S1481ˆ"3Remove this unused "pesoIngresado1" local variable.(¡ËšŞ
-O
-squid:S106B"9Replace this use of System.out or System.err by a logger.(¦ß¸Î
-Ssquid:S3972+"7Move this "if" to a new line or add the missing "else".(ß×Äáıÿÿÿÿ
-nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¢×øÿÿÿÿ
-T
-squid:S106("9Replace this use of System.out or System.err by a logger.(±“öÄıÿÿÿÿ
-O
-squid:S106t"9Replace this use of System.out or System.err by a logger.(œ¯œ²
-T
-squid:S106p"9Replace this use of System.out or System.err by a logger.(õÆ¬§úÿÿÿÿ
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(õÆ¬§úÿÿÿÿ
-T
-squid:S106v"9Replace this use of System.out or System.err by a logger.(‰™ÁÉşÿÿÿÿ
-U
-squid:S106“"9Replace this use of System.out or System.err by a logger.(‰™ÁÉşÿÿÿÿ
-Ssquid:S3972)"7Move this "if" to a new line or add the missing "else".(Œê‘üÿÿÿÿ
-T
-squid:S1064"9Replace this use of System.out or System.err by a logger.(¯ŞÅİùÿÿÿÿ
-T
-squid:S106r"9Replace this use of System.out or System.err by a logger.(¡ÏÔ¬ûÿÿÿÿ
-U
-squid:S106‘"9Replace this use of System.out or System.err by a logger.(¡ÏÔ¬ûÿÿÿÿ
-O
-squid:S106*"9Replace this use of System.out or System.err by a logger.(ó ã¸
-fsquid:S00116
-"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¼è«
-T
-squid:S106,"9Replace this use of System.out or System.err by a logger.(¬¨ÃÖúÿÿÿÿ

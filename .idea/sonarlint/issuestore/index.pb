@@ -1,21 +1,29 @@
 
-I
-src/Electrodomestico.java,e\d\ed9b44609e7363508741db75725170d50095fab6
-C
-src/Television.java,e\f\efd721ce7fb529a5e94b653a99b3920507960ce0
-A
-src/Lavadora.java,0\9\0947f972e15e283a14edf4260d7a0dd161954601
+U
+%src/main/java/EjercicioDieciOcho.java,a\d\addd32d27c28942042847815aecb5e7b31d22134
+O
+src/main/java/EjercicioDos.java,e\3\e39c0aaa822c7c3740aeab6ba3cef5ecd9037b77
 K
-src/EjercicioDieciOcho.java,f\0\f0d65c6adca4490a48f6be0918074eb55681da01
-?
-src/prueba.java,6\b\6b45b2b17a0c3fa16d3a8b15af08d848e224f4f2
-C
-src/Entregable.java,2\a\2a40a84fa53c75f304eb8d575c98cc6aa3acd483
-@
-src/Persona.java,b\5\b55544f87876a25acfb14aa22d21c5fa0706bb17
-C
-src/VideoJuego.java,1\d\1d20b8a92fcca58feae0db8afdad2dd9bc81be75
-=
-src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
->
-src/Serie.java,7\8\782578fc51f3d2b2377901ab6361b2db3260e5bf
+src/main/java/Lavadora.java,2\1\2161dbe6eb37cd97de37e05538a34d40eb7bc803
+M
+src/main/java/Television.java,5\8\58e62a579417b65b7e8216eb5faad6f79543c99a
+V
+&src/main/java/EjercicioDieciSiete.java,1\9\190cb83c8b4cb96e1234b2833d5b5b5b36310f66
+P
+ src/main/java/EjercicioDiez.java,4\6\469c1146c973834d2e845e361a33509b796bd088
+Q
+!src/main/java/EjercicioNueve.java,6\5\658e06328cecb679ca52111798c77b71af31b6f1
+[
++src/main/java/ValidacionEntradaScanner.java,f\d\fd6dab685ed158fbff66adf05e850209beba480e
+S
+#src/main/java/Electrodomestico.java,3\f\3fe19a393a9eec40cbd04e994c3b36325e56d1f0
+P
+ src/main/java/EjercicioOnce.java,c\9\c997d1eb87f9d4d446d21164d35856864b7f1863
+J
+src/main/java/Persona.java,9\a\9ad8a1d2fbd1291b9be7d962ebd35e3877ad624d
+Q
+!src/main/java/EjercicioSiete.java,7\0\70ad01a35de5c47be9f2b190673f89e62963d6c1
+G
+src/main/java/Menu.java,c\3\c31bdfc90166c3f89692de109e3f301e89b75476
+G
+src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
