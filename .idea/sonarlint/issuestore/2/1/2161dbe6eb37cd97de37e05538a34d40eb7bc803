@@ -1,0 +1,5 @@
+
+rsquid:S3008"[Rename this field "Electrodomestico" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…•¾
+vsquid:S1450"ZRemove the "precioCarga" field and declare it as a local variable in the relevant methods.(¡©ªòúÿÿÿÿ
+Ksquid:S1068"4Remove this unused "Electrodomestico" private field.(…•¾
+Ksquid:S1068"/Remove this unused "precioCarga" private field.(¡©ªòúÿÿÿÿ
